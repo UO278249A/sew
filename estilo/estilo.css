@@ -1,0 +1,40 @@
+
+body {
+    font-family: "Century Gothic","CenturyGothic","AppleGothic",sans-serif;
+    font-size: 1em;
+    background-color: #d9eef7;
+    color: #000000;
+}
+header {
+    background-color: #072d6b;
+    text-transform: uppercase;
+    padding-top: 1.5em;
+    padding-left:2em;
+    padding-right:2em;
+    padding-bottom: 1.5em;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.5em;
+    /*hereda background color de header*/
+}
+
+nav {
+    background-color: #f4caff;
+    font-size: 0.9em;
+    /*hereda foreground color de body*/
+}
+
+nav a{
+    text-decoration: none;
+    padding-left:0.3em;
+    padding-right:0.3em;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: #d942f0;
+}
+
